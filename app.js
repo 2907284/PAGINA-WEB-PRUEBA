@@ -69,17 +69,12 @@
     a.href = urlWa ? urlWa + "?text=" + encodeURIComponent("Hola, he visto tu web y quería pedir información.") : "#presupuesto";
     if (urlWa) { a.target = "_blank"; a.rel = "noopener"; }
   });
-  // Email: en el móvil abre la app de correo (Gmail si es la que usa); en el PC abre Gmail en el navegador
-  var esMovil = window.matchMedia("(pointer: coarse)").matches;
+  // Email: abre siempre Gmail en una pestaña nueva, con el destinatario ya puesto
   document.querySelectorAll("[data-mail]").forEach(function (a) {
     if (!valores.email) { a.removeAttribute("href"); return; }
-    if (esMovil) {
-      a.href = "mailto:" + valores.email;
-    } else {
-      a.href = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(valores.email);
-      a.target = "_blank";
-      a.rel = "noopener";
-    }
+    a.href = "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(valores.email);
+    a.target = "_blank";
+    a.rel = "noopener";
   });
 
   // Título de la página
