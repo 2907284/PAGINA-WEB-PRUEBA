@@ -1,0 +1,43 @@
+CÓMO PONER TU WEB EN MARCHA
+===========================
+
+1) RELLENA TUS DATOS (una sola vez)
+   Abre el archivo "datos.js" con el Bloc de notas y escribe tus datos
+   entre las comillas: nombre, NIF, dirección, teléfono (9 cifras, sin
+   espacios), email, zona y horario. Guarda el archivo.
+   Mientras falte algún dato, la web lo marca en amarillo con
+   "[Falta ... en datos.js]" para que lo veas.
+
+2) TUS FOTOS (cuando las tengas)
+   Copia las fotos a la carpeta "fotos" (créala si no existe) y añádelas
+   en "datos.js", en la lista "fotos". La sección "Trabajos" aparecerá sola.
+   Usa solo fotos tuyas o con permiso. Mejor en horizontal y de menos de 500 KB.
+
+3) OPINIONES (cuando las tengas)
+   Añade opiniones reales de clientes, con su permiso, en la lista
+   "opiniones" de "datos.js". La sección aparecerá sola.
+
+4) PRUEBA EN TU ORDENADOR
+   Haz doble clic en "index.html". Prueba los botones de llamar y
+   WhatsApp, y envía una solicitud de prueba con el formulario.
+
+5) PUBLÍCALA GRATIS
+   - Entra en https://app.netlify.com/drop
+   - Arrastra la carpeta entera de la web a la página.
+   - En segundos tendrás una dirección del tipo algo.netlify.app.
+   - Crea una cuenta gratuita para que la web no caduque y poder
+     cambiarle el nombre o ponerle un dominio propio (p. ej. pinturasmartinez.es).
+   Si usas otro alojamiento, cambia "alojamiento" en datos.js.
+
+6) DESPUÉS DE PUBLICAR
+   - Da de alta tu negocio en Google (Perfil de Empresa de Google) y pon
+     el enlace de la web. Es lo que más llamadas trae a un pintor.
+   - Pide a tus clientes que te dejen una reseña allí.
+
+IMPORTANTE
+   - Esta web no usa cookies ni conecta con servicios de terceros, por eso
+     no necesita aviso de cookies. Si añades Google Analytics, mapas de
+     Google, vídeos de YouTube o similares, necesitarás un aviso de
+     cookies y actualizar los textos legales.
+   - Los textos legales son una base general. Si tienes empleados,
+     trabajas con muchas empresas o tienes dudas, que los revise tu gestoría.

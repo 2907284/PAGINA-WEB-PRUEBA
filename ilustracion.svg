@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Ilustración de una pared a medio pintar con un rodillo">
+  <rect width="640" height="480" fill="#E9EDF2"/>
+  <!-- pared sin pintar con textura -->
+  <g fill="#DCE3EA">
+    <circle cx="60" cy="60" r="3"/><circle cx="110" cy="95" r="2.5"/><circle cx="80" cy="150" r="3"/>
+    <circle cx="150" cy="40" r="2"/><circle cx="40" cy="210" r="2.5"/><circle cx="130" cy="230" r="3"/>
+    <circle cx="190" cy="120" r="2.5"/><circle cx="60" cy="290" r="2"/><circle cx="170" cy="300" r="3"/>
+  </g>
+  <!-- zona pintada -->
+  <path d="M250 0 H640 V400 H230 C238 360 222 330 236 290 C250 250 226 220 240 180 C254 140 232 110 244 70 C252 40 240 20 250 0 Z" fill="#1F487C"/>
+  <path d="M330 0 H640 V400 H322 C330 350 316 300 330 250 C342 200 320 150 334 100 C342 60 324 30 330 0 Z" fill="#244F86" opacity=".55"/>
+  <!-- goterones -->
+  <path d="M236 290 c-6 10 -6 22 0 28 c6 -6 6 -18 0 -28 Z" fill="#1F487C"/>
+  <path d="M244 70 c-5 9 -5 18 0 23 c5 -5 5 -14 0 -23 Z" fill="#1F487C"/>
+  <!-- rodapié y suelo -->
+  <rect y="400" width="640" height="14" fill="#C9D3DE"/>
+  <rect y="414" width="640" height="66" fill="#D6C3A5"/>
+  <g stroke="#C7B08C" stroke-width="2"><line x1="0" y1="440" x2="640" y2="440"/><line x1="160" y1="414" x2="160" y2="440"/><line x1="420" y1="440" x2="420" y2="480"/><line x1="540" y1="414" x2="540" y2="440"/></g>
+  <!-- bandeja de pintura -->
+  <path d="M70 448 L210 448 L196 470 L84 470 Z" fill="#5A6B7B"/>
+  <path d="M80 448 L200 448 L190 460 L90 460 Z" fill="#1F487C"/>
+  <!-- bote de pintura -->
+  <rect x="470" y="380" width="86" height="92" rx="8" fill="#FFFFFF"/>
+  <rect x="470" y="380" width="86" height="14" rx="6" fill="#C9D3DE"/>
+  <rect x="478" y="414" width="70" height="34" rx="4" fill="#E8A33D"/>
+  <rect x="490" y="425" width="46" height="5" rx="2" fill="#FFFFFF" opacity=".8"/>
+  <path d="M470 392 Q513 350 556 392" fill="none" stroke="#5A6B7B" stroke-width="4"/>
+  <!-- rodillo -->
+  <g transform="rotate(-12 300 210)">
+    <rect x="232" y="150" width="150" height="54" rx="27" fill="#2E7D4F"/>
+    <rect x="232" y="150" width="150" height="54" rx="27" fill="#1F487C" opacity=".35"/>
+    <rect x="240" y="158" width="134" height="10" rx="5" fill="#FFFFFF" opacity=".25"/>
+    <path d="M382 177 H410 V250 H318 V300" fill="none" stroke="#3A4656" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="303" y="296" width="30" height="110" rx="12" fill="#E8A33D"/>
+    <rect x="303" y="296" width="30" height="16" rx="6" fill="#C8562E"/>
+  </g>
+</svg>
